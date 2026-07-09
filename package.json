@@ -1,0 +1,16 @@
+{
+  "name": "desh-bot",
+  "version": "1.0.0",
+  "description": "DESH Gaming multi-purpose Discord bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5"
+  }
+}
